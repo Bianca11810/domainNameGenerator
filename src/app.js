@@ -12,7 +12,7 @@ window.onload = function() {
     for (let j = 0; j < adj.length; j++) {
       for (let b = 0; b < noun.length; b++) {
         //create the domain
-        let domain = pronoun[i] + "" + adj[j] + "" + noun[b] + "" + ".com";
+        let domain = pronoun[i] + adj[j] + noun[b] + ".com";
 
         // create a new html element
         let p = document.createElement("p");
